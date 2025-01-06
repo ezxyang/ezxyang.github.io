@@ -8,8 +8,8 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #264653; /* Dark Blue Text */
-    background-color: #FFFBEA; /* Light Cream Background */
+    color: #254173; /* Dark Blue Text */
+    background-color: #D7D8D1; 
     padding: 0;
     margin: 0;
   }
@@ -20,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #264653; /* Dark Blue Background */
+    background: #254173; /* Dark Blue Background */
     color: #E9C46A; /* Cream Text */
   }
   
@@ -47,8 +47,8 @@
   .hero {
     text-align: center;
     padding: 100px 20px;
-    background: #2A9D8F; /* Teal Background */
-    color: #FFFBEA; /* Light Cream Text */
+    background: #254173; /* Teal Background */
+    color: #D7D8D1; /* Light Cream Text */
   }
   
   .hero .btn {
@@ -56,7 +56,7 @@
     padding: 10px 20px;
     margin-top: 20px;
     background: #E9C46A; /* Golden Cream Button */
-    color: #264653; /* Dark Blue Text */
+    color: #254173; /* Dark Blue Text */
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -74,19 +74,19 @@
     max-width: 800px;
     border-radius: 8px;
     padding: 20px;
-    color: #264653; /* Dark Blue Text */
+    color: #254173; /* Dark Blue Text */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
   #about h2, #portfolio h2, #contact h2 {
-    color: #2A9D8F; /* Teal Heading Text */
+    color: #254173; /* Teal Heading Text */
   }
   
   /* Footer */
   footer {
     text-align: center;
     padding: 10px;
-    background: #264653; /* Dark Blue Background */
-    color: #FFFBEA; /* Light Cream Text */
+    background: #254173; /* Dark Blue Background */
+    color: #D7D8D1; /* Light Cream Text */
   }
   
