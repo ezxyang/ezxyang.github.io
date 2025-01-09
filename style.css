@@ -89,7 +89,7 @@
     text-align: center;
   }
   
-  #about, #portfolio, #contact {
+  #about, #portfolio, #contact, #resume {
     background: #FFF; /* White Background */
     margin: 20px auto;
     max-width: 800px;
@@ -99,7 +99,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  #about h2, #portfolio h2, #contact h2 {
+  #about h2, #portfolio h2, #contact h2, #resume h2 {
     color: #254173; /* Teal Heading Text */
   }
   
