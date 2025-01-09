@@ -153,3 +153,51 @@
     list-style-type: circle; 
     margin-left: 20px; 
   }
+
+  /* For screens smaller than 768px (tablets and phones) */
+  @media only screen and (max-width: 768px) {
+    /* Reduce font sizes for smaller screens */
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    /* Stack navigation links vertically */
+    nav ul {
+      display: block;
+      text-align: center;
+    }
+    nav ul li {
+      margin-bottom: 10px;
+    }
+
+    /* Adjust button sizes */
+    .button {
+      width: 100%; /* Make buttons full-width on mobile */
+      padding: 10px;
+    }
+
+    /* Add space between sections */
+    section {
+      margin-bottom: 20px;
+    }
+  }
+
+  /* For even smaller screens, like mobile phones (portrait mode) */
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+    }
+    
+    /* Adjust the image size to fit on smaller screens */
+    img {
+      width: 100%; /* Ensure the image fills the available space */
+      height: auto;
+    }
+  }
