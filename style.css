@@ -17,6 +17,7 @@
   /* Header Styles */
   header {
     position: sticky;
+    display: flex;
     top: 0;
     z-index: 1000;
     justify-content: space-between;
@@ -29,6 +30,7 @@
   header .logo {
     font-size: 24px;
     font-weight: bold;
+    margin-right: 20px;
   }
   
   header nav ul {
@@ -112,7 +114,7 @@
   /* General Button Styling */
   button.button {
     background-color: #254173; /* Primary button color */
-    color: #D7D8D1; /* Text color */
+    color: #f7f7f7; /* Text color */
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
