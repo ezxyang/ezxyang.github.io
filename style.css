@@ -13,6 +13,14 @@
     padding: 0;
     margin: 0;
   }
+
+  /* Heading Styling */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Use Georgia as the primary font */
+    font-weight: bold; 
+    color: #254173; 
+    line-height: 1.4; 
+  }
   
   /* Header Styles */
   header {
