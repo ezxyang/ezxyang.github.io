@@ -143,13 +143,13 @@
   }
 
   /* Resume Section Styling */
-  #resume, #experience, #education, #skills ul {
+  #resume ul, #experience ul, #education ul, #skills ul {
     margin: 0;
     padding-left: 20px; 
     list-style-position: inside;
   }
 
-  #resume, #experience, #education, #skills ul ul {
+  #resume ul ul, #experience ul ul, #education ul ul, #skills ul ul {
     list-style-type: circle; 
     margin: 10px 0;
     padding-left: 20px;
