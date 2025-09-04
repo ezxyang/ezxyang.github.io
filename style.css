@@ -32,7 +32,7 @@
     align-items: center;
     padding: 20px;
     background: #333446; /* Dark Blue Background */
-    color: #7F8CAA; /* Cream Text */
+    color: #7F8CAA;
   }
   
   header .logo {
@@ -54,7 +54,7 @@
   }
   
   header nav ul li a {
-    color: #7F8CAA; /* Cream Text */
+    color: #7F8CAA;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -68,7 +68,7 @@
   .hero {
     text-align: center;
     padding: 100px 20px;
-    background: #333446; /* Teal Background */
+    background: #333446;
     color: #EAEFEF;
   }
   
@@ -121,7 +121,7 @@
 
   /* General Button Styling */
   button.button {
-    background-color: #333446; /* Primary button color */
+    background-color: #7F8CAA; /* Primary button color */
     color: #f7f7f7; /* Text color */
     border: none;
     padding: 10px 20px;
@@ -133,12 +133,12 @@
   }
   
   button.button:hover {
-    background-color: #7F8CAA; 
+    background-color: #555777; 
     transform: scale(1.05);
   }
   
   button.button:active {
-    background-color: #545c70; 
+    background-color: #333446; 
     transform: scale(0.98); 
   }
 
