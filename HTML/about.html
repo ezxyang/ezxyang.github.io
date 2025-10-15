@@ -5,21 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me - Ethan Yang</title>
   <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../mediaqueries.css">
 </head>
-<body>
-  <header>
+<header>
+  <nav id="desktop-nav">
     <div class="logo">Ethan Yang</div>
-    <nav>
-        <ul>
+    <div>
+      <ul class="nav-links">
           <li><a href="../index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="resume.html">Resume</a></li>
-        </ul>
-    </nav>
-  </header>
-
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Ethan Yang</div>
+    <div class = hamburger-menu>
+      <div class = "hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class = "menu-links" >
+        <li><a href="../index.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+        <li><a href="portfolio.html" onclick="toggleMenu()">Portfolio</a></li>
+        <li><a href="resume.html" onclick="toggleMenu()">Resume</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+</header>
+<body>
   <main>
     <section id="about">
       <h1>About Me</h1>
@@ -27,9 +46,11 @@
         Hello! My name is Ethan and I am a third year undergraduate student at the <a href="https://www.washington.edu/" target="_blank">University of Washington, Seattle</a>. I am currently majoring in Computer Science at the <a href="https://www.cs.washington.edu/" target="_blank">Allen School</a> at UW.
       </p>
       <p>
-        I am very passionate about AI (Artificial Intelligence), ML (Machine Learning), and Robotics.<br> Recently, I have working towards getting involved in research regarding Autonomous Robotics, as well as getting acquainted with more complex topics such as Deep and Reinforcement Learning.
+        I am very passionate about AI (Artificial Intelligence), ML (Machine Learning), and Robotics.<br> Recently, I have been working towards getting involved in research regarding Autonomous Robotics, as well as getting acquainted with more complex topics such as Deep and Reinforcement Learning.
       </p>
     </section>
   </main>
+
+  <script src="../script.js"></script>
 </body>
 </html>

@@ -8,14 +8,32 @@
   <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <header>
-  <div class="logo">Ethan Yang</div>
-  <nav>
-    <ul>
-      <li><a href="HTML/about.html">About</a></li>
-      <li><a href="HTML/portfolio.html">Portfolio</a></li>
-      <li><a href="HTML/contact.html">Contact</a></li>
-      <li><a href="HTML/resume.html">Resume</a></li>
-    </ul>
+  <nav id="desktop-nav">
+    <div class="logo">Ethan Yang</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="HTML/about.html">About</a></li>
+        <li><a href="HTML/portfolio.html">Portfolio</a></li>
+        <li><a href="HTML/resume.html">Resume</a></li>
+        <li><a href="HTML/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Ethan Yang</div>
+    <div class = hamburger-menu>
+      <div class = "hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class = "menu-links" >
+        <li><a href="HTML/about.html" onclick="toggleMenu()">About</a></li>
+        <li><a href="HTML/portfolio.html" onclick="toggleMenu()">Portfolio</a></li>
+        <li><a href="HTML/resume.html" onclick="toggleMenu()">Resume</a></li>
+        <li><a href="HTML/contact.html" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
   </nav>
 </header>
 
